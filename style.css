@@ -1,0 +1,401 @@
+ body {
+     background-color: rgb(255, 217, 230);
+     margin: 0;
+     padding: 0;
+ }
+
+ header {
+     height: 13.5vh;
+     position: relative;
+     font-family: 'Comic Sans MS', cursive, sans-serif;
+     /* Забавный шрифт для игривого настроения */
+     font-size: 24px;
+     /* Размер шрифта */
+     color: #ff69b4;
+     /* Ярко-розовый цвет текста */
+     text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+     /* Тень под текстом для объема */
+     background: linear-gradient(45deg, #f0f8ff, #ffe4e1);
+     /* Градиентный фон для текста */
+     padding: 10px 20px;
+     /* Внутренние отступы вокруг текста */
+     border-radius: 15px;
+     /* Скругление углов блока */
+     border: 3px dashed #ff69b4;
+     /* Стильная рамка с точками */
+     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+     /* Тень вокруг блока для глубины */
+
+     transition: all 0.3s ease;
+     /* Плавное изменение стилей при наведении */
+
+ }
+
+ .text_header {
+     width: 300px;
+     font-family: 'Comic Sans MS', cursive, sans-serif;
+     /* Забавный шрифт для игривого настроения */
+     font-size: 24px;
+     /* Размер шрифта */
+     color: #ff69b4;
+     /* Ярко-розовый цвет текста */
+     text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+     /* Тень под текстом для объема */
+     background: linear-gradient(45deg, #f0f8ff, #ffe4e1);
+     /* Градиентный фон для текста */
+     padding: 10px 20px;
+     /* Внутренние отступы вокруг текста */
+     border-radius: 15px;
+     /* Скругление углов блока */
+     border: 3px dashed #ff69b4;
+     /* Стильная рамка с точками */
+     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+     /* Тень вокруг блока для глубины */
+     transform: rotate(-3deg) scale(1.05);
+     /* Небольшой наклон и увеличение для динамики */
+     transition: all 0.3s ease;
+     /* Плавное изменение стилей при наведении */
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+ main {
+     position: relative;
+     background-color: rgb(255, 217, 230);
+     height: 67vh;
+ }
+
+ /*Контейнеры*/
+ .container_main {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 70vh;
+ }
+
+
+ .clon {
+     transform: scaleX(-1);
+     margin-left: -50px;
+ }
+
+ .con {
+     display: flex;
+     line-height: 0.01;
+     font-size: 12px;
+     text-shadow: 4px 4px 10px rgba(255, 0, 0, 0.3);
+     color: #ff69b4;
+ }
+
+ .text {
+     margin-left: 20px;
+ }
+
+ .text1 {
+     transform: scaleX(-1);
+     margin-left: 20px;
+ }
+
+ .container {
+     height: 500px;
+     width: 300px;
+     margin-top: 150px;
+ }
+
+ .cont_lov {
+
+     position: fixed;
+     font-size: 12px;
+     line-height: 0.01;
+     top: 69vh;
+     left: 50%;
+     transform: translate(-50%, -50%);
+     color: #ff69b4;
+ }
+
+ .text_lov2 {
+     margin-left: 15%;
+ }
+
+ .text_lov3 {
+     margin-left: 20%;
+ }
+
+
+
+
+ /*Основные элементы*/
+ .one {
+     margin-left: 90px;
+     font-size: 17px;
+ }
+
+ .two {
+     gap: 15px;
+     margin-left: 60px;
+ }
+
+ .three {
+     gap: 45px;
+     margin-left: 45px;
+ }
+
+ .four {
+     margin-left: 30px;
+ }
+
+ .five {
+     margin-left: 28px;
+ }
+
+ .six {
+     margin-left: 35px;
+ }
+
+ .seven {
+     margin-left: 50px;
+ }
+
+ .eight {
+     margin-left: 60px;
+ }
+
+ .nine {
+     margin-left: 80px;
+ }
+
+ .ten {
+     margin-left: 100px;
+ }
+
+ .eleven {
+     margin-left: 130px;
+ }
+
+ .twelve {
+     margin-left: 160px;
+ }
+
+ .threeting {
+     margin-left: 180px;
+ }
+
+
+
+
+
+
+
+
+
+ footer {
+     position: relative;
+     height: 13.5vh;
+     font-family: 'Comic Sans MS', cursive, sans-serif;
+     /* Забавный шрифт для игривого настроения */
+     font-size: 24px;
+     /* Размер шрифта */
+     color: #ff69b4;
+     /* Ярко-розовый цвет текста */
+     text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+     /* Тень под текстом для объема */
+     background: linear-gradient(45deg, #f0f8ff, #ffe4e1);
+     /* Градиентный фон для текста */
+     padding: 10px 20px;
+     /* Внутренние отступы вокруг текста */
+     border-radius: 15px;
+     /* Скругление углов блока */
+     border: 3px dashed #ff69b4;
+     /* Стильная рамка с точками */
+     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+     /* Тень вокруг блока для глубины */
+     transition: all 0.3s ease;
+     /* Плавное изменение стилей при наведении */
+ }
+
+ .text_footer {
+     margin-left: 78%;
+     font-family: 'Comic Sans MS', cursive, sans-serif;
+     /* Забавный шрифт для игривого настроения */
+     font-size: 24px;
+     /* Размер шрифта */
+     color: #ff69b4;
+     /* Ярко-розовый цвет текста */
+     text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+     /* Тень под текстом для объема */
+     background: linear-gradient(45deg, #f0f8ff, #ffe4e1);
+     /* Градиентный фон для текста */
+     padding: 10px 20px;
+     /* Внутренние отступы вокруг текста */
+     border-radius: 15px;
+     /* Скругление углов блока */
+     border: 3px dashed #ff69b4;
+     /* Стильная рамка с точками */
+     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+     /* Тень вокруг блока для глубины */
+     transform: rotate(-3deg) scale(1.05);
+     /* Небольшой наклон и увеличение для динамики */
+     transition: all 0.3s ease;
+     /* Плавное изменение стилей при наведении */
+     width: 250px;
+     height: 60px;
+ }
+
+
+
+ @media(max-width: 550px) {
+
+     .container_main {
+         transform: scale(0.7);
+     }
+
+     .clon {
+         margin-left: 0px;
+     }
+
+     .cont_lov {
+         font-size: 8px;
+         top: 63.5vh;
+     }
+
+     .text_header {
+         width: 200px;
+         margin-bottom: 40px;
+     }
+     .text_header{
+        margin-bottom: 20px;
+     }
+     .clon {
+         left: 0;
+     }
+
+     .text {
+         margin-left: 1px;
+     }
+
+     .text1 {
+         margin-left: 1px;
+     }
+
+
+
+
+     .one {
+         margin-left: 60px;
+     }
+
+     .two {
+         gap: 1px;
+         margin-left: 30px;
+     }
+
+     .three {
+         gap: 16px;
+         margin-left: 20px;
+     }
+
+     .four {
+         margin-left: 10px;
+     }
+
+     .five {
+         margin-left: 8px;
+     }
+
+     .six {
+         margin-left: 11px;
+     }
+
+     .seven {
+         margin-left: 20px;
+     }
+
+     .eight {
+         margin-left: 40px;
+     }
+
+     .nine {
+         margin-left: 50px;
+     }
+
+     .ten {
+         margin-left: 70px;
+     }
+
+     .eleven {
+         margin-left: 90px;
+     }
+
+     .twelve {
+         margin-left: 110px;
+     }
+
+     .threeting {
+         font-size: 10px;
+         margin-left: 130px;
+     }
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+ @media(max-width: 1600px) {
+     .text_footer {
+         font-size: 16px;
+         margin-left: 90px;
+         margin-top: 30px;
+         width: 160px;
+     }
+ }
+@media(max-width: 405px){
+    .threeting{
+        margin-left: 115px;
+    }
+    .twelve{
+        margin-left: 105px;
+    }
+    .three{
+        margin-left: 15px;
+    }
+    
+}
+
+
+@media(max-height:845px){
+    main{
+        height: 66vh;
+    }
+    
+    .text_footer{
+        margin-top: -5px;
+    }
+    .text_header{
+        margin-top: -5px;
+    }
+    .clon{
+        margin-left: -200px;
+    }
+    .cont_lov{
+        top: 68vh;
+        margin-top: 60px;
+    }
+
+}
